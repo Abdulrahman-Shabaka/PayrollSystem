@@ -1,0 +1,62 @@
+﻿@using PayrollSystem.Models.Domain
+@model PayrollSystem.Models.Dtos.EmployeeDto
+
+<div id="formContainer">
+    @if (ViewBag.Departments != null && ViewBag.Departments.Count > 0)
+    {
+        <form asp-action="Create" id="employeeForm">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth"></label>
+                <input asp-for="DateOfBirth" class="form-control" type="date" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartmentId"></label>
+                <select asp-for="DepartmentId" class="form-control" asp-items="@(new SelectList(ViewBag.Departments, "Id", "Name"))"></select>
+                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JobGrade"></label>
+                <select asp-for="JobGrade" class="form-control">
+                    @foreach (var grade in Enum.GetValues(typeof(JobGrade)).Cast<JobGrade>())
+                    {
+                        <option value="@((int)grade)">@grade</option>
+                    }
+                </select>
+                <span asp-validation-for="JobGrade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HireDate"></label>
+                <input asp-for="HireDate" class="form-control" type="date" />
+                <span asp-validation-for="HireDate" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+    }
+    else
+    {
+        <div class="alert alert-danger mt-3">
+            Please create at least one department to add an employee.
+        </div>
+    }
+</div>

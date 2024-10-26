@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PayrollSystem.Models.Domain.IncentiveAndDiscount>
+
+<h2>IncentiveAndDiscount List</h2>
+<table class="table">
+    <thead>
+    <tr>
+            <th>Category</th>
+            <th>Type</th>
+        <th>Percentage</th>
+        <th>Department</th>
+        <th>Minimum Years</th>
+        <th>Maximum Years</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var incentive in Model)
+    {
+        <tr>
+            <td>@incentive.Category</td>
+            <td>@incentive.Type</td>
+            <td>@incentive.Percentage</td>
+            <td>@(incentive.Department?.Name ?? "N/A")</td>
+            <td>@(incentive.MinimumYears.HasValue ? incentive.MinimumYears.Value.ToString() : "N/A")</td>
+            <td>@(incentive.MaximumYears.HasValue ? incentive.MaximumYears.Value.ToString() : "N/A")</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@incentive.Id" class="btn btn-warning">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@incentive.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Add New IncentiveAndDiscount</a>

@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<PayrollSystem.Models.Domain.Attendance>
+
+<h2>Attendance List</h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Employee Name</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Reason</th>
+        <th>Login Time</th>
+        <th>Logout Time</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var attendance in Model)
+    {
+        <tr>
+            <td>@attendance.Employee.Name</td>
+            <td>@attendance.Date.ToString("yyyy-MM-dd")</td>
+            <td>@attendance.Status.ToString()</td>
+            <td>@attendance.Reason</td>
+            <td>@attendance.LoginTime?.ToString("HH:mm")</td>
+            <td>@attendance.LogoutTime?.ToString("HH:mm")</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@attendance.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@attendance.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Add New Attendance Record</a>

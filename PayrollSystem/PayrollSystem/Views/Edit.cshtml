@@ -1,0 +1,16 @@
+﻿@model PayrollSystem.Models.Domain.Attendance
+
+<h2>Edit Attendance Record</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="EmployeeId"></label>
+        <input asp-for="EmployeeId" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+       @*  <label asp-for="DaysAbsent"></label>
+        <input asp-for="DaysAbsent" class="form-control" /> *@
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

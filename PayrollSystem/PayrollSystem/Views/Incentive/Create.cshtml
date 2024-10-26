@@ -1,0 +1,133 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using PayrollSystem.Models.Domain
+@model PayrollSystem.Models.Domain.IncentiveAndDiscount
+
+@{
+    var departments = ViewBag.Departments as List<Department>;
+    var categories = Enum.GetValues(typeof(IncentiveAndDiscountCategory)).Cast<IncentiveAndDiscountCategory>().ToList();
+}
+
+<h2>Add New Incentive/Discount</h2>
+<form asp-action="Create" method="post" id="incentiveForm">
+    <!-- Category Selection -->
+    <div class="form-group">
+        <label asp-for="Category"></label>
+        <select asp-for="Category" class="form-control" id="Category" required>
+            <option value="">-- Select Category --</option>
+            @foreach (var category in categories)
+            {
+                <option value="@category">@category</option>
+            }
+        </select>
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+
+    <!-- Incentive/Discount Type Selection -->
+    <div class="form-group">
+        <label asp-for="Type"></label>
+        <select asp-for="Type" class="form-control" id="IncentiveAndDiscountType" required>
+            <option value="">-- Select Type --</option>
+        </select>
+        <span asp-validation-for="Type" class="text-danger"></span>
+    </div>
+
+    <!-- Department Selection -->
+    <div class="form-group" id="DepartmentDiv" style="display:none;">
+        <label asp-for="DepartmentId"></label>
+        <select asp-for="DepartmentId" class="form-control" asp-items="@(new SelectList(departments, "Id", "Name"))">
+            <option value="">-- Select Department --</option>
+        </select>
+        <span asp-validation-for="DepartmentId" class="text-danger"></span>
+    </div>
+
+    <!-- Minimum and Maximum Years Selection -->
+    <div class="form-group" id="YearsDiv" style="display:none;">
+        <label asp-for="MinimumYears"></label>
+        <input asp-for="MinimumYears" class="form-control" />
+        <span asp-validation-for="MinimumYears" class="text-danger"></span>
+
+        <label asp-for="MaximumYears"></label>
+        <input asp-for="MaximumYears" class="form-control" />
+        <span asp-validation-for="MaximumYears" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Percentage"></label>
+        <input asp-for="Percentage" class="form-control" required />
+        <span asp-validation-for="Percentage" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const categorySelect = document.getElementById('Category');
+            const typeSelect = document.getElementById('IncentiveAndDiscountType');
+            const departmentDiv = document.getElementById('DepartmentDiv');
+            const yearsDiv = document.getElementById('YearsDiv');
+
+            const incentiveTypes = [
+                { value: 1, text: 'Department incentive' },
+                { value: 2, text: 'Number of years incentive' },
+                { value: 3, text: 'Attendance incentive' }
+            ];
+
+            const discountTypes = [
+                { value: 4, text: 'Absent more than 2 days' },
+                { value: 5, text: 'Absent more than 5 days' },
+                { value: 6, text: 'Absent more than 10 days' },
+                { value: 7, text: 'Absent more than 15 days' }
+            ];
+
+            function updateTypeOptions() {
+                typeSelect.innerHTML = '<option value="">-- Select Type --</option>';
+                const selectedCategory = categorySelect.options[categorySelect.selectedIndex].text;
+
+                let types = [];
+                if (selectedCategory === 'Incentive') {
+                    types = incentiveTypes;
+                } else if (selectedCategory === 'Discount') {
+                    types = discountTypes;
+                }
+
+                types.forEach(type => {
+                    const option = document.createElement('option');
+                    option.value = type.value;
+                    option.textContent = type.text;
+                    typeSelect.appendChild(option);
+                });
+
+                updateUI();
+            }
+
+            function updateUI() {
+                const selectedType = typeSelect.value;
+
+                // Hide and reset fields initially
+                departmentDiv.style.display = 'none';
+                yearsDiv.style.display = 'none';
+                clearFields();
+
+                if (selectedType == 1) { // Department-based
+                    departmentDiv.style.display = 'block';
+                } else if (selectedType == 2) { // Years-based
+                    yearsDiv.style.display = 'block';
+                }
+            }
+
+            function clearFields() {
+                document.querySelector('select[name="DepartmentId"]').value = "";
+                document.querySelector('input[name="MinimumYears"]').value = "";
+                document.querySelector('input[name="MaximumYears"]').value = "";
+            }
+
+            categorySelect.addEventListener('change', updateTypeOptions);
+            typeSelect.addEventListener('change', updateUI);
+        });
+    </script>
+}

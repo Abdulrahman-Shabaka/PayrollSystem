@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using PayrollSystem.Models.Domain
+@model IEnumerable<PayrollSystem.Models.Dtos.EmployeeDto>
+
+<h2>Employee List</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Date of Birth</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Department</th>
+        <th>Job Grade</th>
+        <th>Hire Date</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var employee in Model)
+    {
+        <tr>
+            <td>@employee.Name</td>
+            <td>@employee.DateOfBirth.ToString("yyyy-MM-dd")</td>
+            <td>@employee.Phone</td>
+            <td>@employee.Address</td>
+            <td>@employee.Email</td>
+            <td>@employee.DepartmentName</td>
+            <td>@employee.JobGrade</td>
+            <td>@employee.HireDate.ToString("yyyy-MM-dd")</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@employee.Id" class="btn btn-warning">Edit</a>
+                <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-danger">Delete</a>
+                    @if (employee.Attendance?.LoginTime == null && employee.Attendance?.Status != AttendanceStatus.Absent)
+                {
+                        <a asp-action="Login" asp-route-id="@employee.Id" class="btn btn-primary">Login</a>
+                        <a asp-action="Absent" asp-route-id="@employee.Id" class="btn btn-dark">Absent</a>
+                }
+                    else if (employee.Attendance?.LogoutTime == null && employee.Attendance?.Status != AttendanceStatus.Absent)
+                {
+                        <a asp-action="Logout" asp-route-id="@employee.Attendance?.Id" class="btn btn-primary">Logout</a>
+                }
+                    else if (employee.Attendance?.Status == AttendanceStatus.Absent)
+                {
+                    <lable class="btn-dark">Absent</lable>
+                }
+                else
+                {
+                    <lable class="btn-success">Attended</lable>
+                }
+                
+
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Create">Add New Employee</a>

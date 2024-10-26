@@ -18,12 +18,76 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Development\MyDev\PayrollSystem\PayrollSystem\PayrollSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Attendance/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Attendance/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Attendance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Department/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Incentive/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jZW50aXZlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Incentive/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jZW50aXZlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Incentive/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jZW50aXZlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Salary/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Salary/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Salary/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Shared/Error.cshtml]

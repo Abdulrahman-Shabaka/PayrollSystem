@@ -1,0 +1,88 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using PayrollSystem.Models.Domain
+@model PayrollSystem.Models.Dtos.AttendanceDto
+
+<h2>Add New Attendance Record</h2>
+
+<div id="formContainer">
+    @if (ViewBag.Employees != null && ViewBag.Employees.Count > 0)
+    {
+        <form asp-action="Create" method="post" id="attendanceForm">
+            <div class="form-group">
+                <label asp-for="EmployeeId"></label>
+                <select asp-for="EmployeeId" class="form-control" asp-items="@(new SelectList(ViewBag.Employees, "Id", "Name"))">
+                    <option value="">Select an Employee</option>
+                </select>
+                <span asp-validation-for="EmployeeId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Date"></label>
+                <input asp-for="Date" class="form-control" type="date" required />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Status"></label>
+                <select asp-for="Status" class="form-control" required id="statusSelect">
+                    @foreach (var status in Enum.GetValues(typeof(AttendanceStatus)).Cast<AttendanceStatus>())
+                    {
+                        <option value="@((int)status)">@status.ToString()</option>
+                    }
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LoginTime"></label>
+                <input asp-for="LoginTime" class="form-control" type="time" id="loginTime" />
+                <span asp-validation-for="LoginTime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LogoutTime"></label>
+                <input asp-for="LogoutTime" class="form-control" type="time" id="logoutTime" />
+                <span asp-validation-for="LogoutTime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Reason"></label>
+                <textarea asp-for="Reason" class="form-control"></textarea>
+                <span asp-validation-for="Reason" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    }
+    else
+    {
+        <div class="alert alert-danger mt-3">
+            Please create at least one employee to add an attendance record.
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            function toggleTimeFields() {
+                var statusSelect = $('#statusSelect').val();
+                var absentValue = '@(Convert.ToInt32(AttendanceStatus.Absent))';
+
+                if (statusSelect == absentValue) {
+                    $('#loginTime').prop('disabled', true);
+                    $('#logoutTime').prop('disabled', true);
+                } else {
+                    $('#loginTime').prop('disabled', false);
+                    $('#logoutTime').prop('disabled', false);
+                }
+            }
+
+            toggleTimeFields();
+
+            $('#statusSelect').change(function () {
+                toggleTimeFields();
+            });
+        });
+    </script>
+}
