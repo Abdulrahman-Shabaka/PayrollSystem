@@ -38,15 +38,15 @@ public class Repository<T>(PayrollContext context) : IRepository<T>
     }
 }
 
-public class SalaryRepository(PayrollContext context) : Repository<Salary>(context), ISalaryRepository
-{
-    private readonly PayrollContext _context = context;
+//public class SalaryRepository(PayrollContext context) : Repository<Salary>(context), ISalaryRepository
+//{
+//    private readonly PayrollContext _context = context;
 
-    public async Task<bool> CheckExistenceAsync(JobGrade grade)
-    {
-        return await _context.Set<Salary>().AnyAsync(s => s.JobGrade == grade);
-    }
-}
+//    public async Task<bool> CheckExistenceAsync(JobGrade grade)
+//    {
+//        return await _context.Set<Salary>().AnyAsync(s => s.JobGrade == grade);
+//    }
+//}
 
 //public class EmployeeRepository(PayrollContext context) : Repository<Employee>(context), IEmployeeRepository
 //{
@@ -67,3 +67,13 @@ public class SalaryRepository(PayrollContext context) : Repository<Salary>(conte
 //        return await query.ToListAsync();
 //    }
 //}
+
+public class AttendanceRepository(PayrollContext context) : Repository<Attendance>(context), IAttendanceRepository
+{
+    private readonly PayrollContext _context = context;
+
+    public Task<bool> CheckExistenceAsync(int employeeId, DateTime date)
+    {
+        return _context.Set<Attendance>().AnyAsync(a => a.EmployeeId == employeeId && a.Date.Date == date.Date);
+    }
+}

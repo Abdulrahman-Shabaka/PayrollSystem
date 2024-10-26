@@ -27,6 +27,12 @@ public class AttendanceController(AttendanceService attendanceService, EmployeeS
     [HttpPost]
     public async Task<IActionResult> Create(AttendanceDto attendanceDto)
     {
+        if(await attendanceService.CheckExistenceAsync(attendanceDto.EmployeeId, attendanceDto.Date))
+        {
+            TempData["Message"] = "The selected Employee have a record for this date";
+            return RedirectToAction(nameof(Index));
+        }
+
         if (ModelState.IsValid)
         {
             var attendance = mapper.Map<Attendance>(attendanceDto);

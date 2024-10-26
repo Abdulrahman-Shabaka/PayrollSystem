@@ -9,6 +9,7 @@
 
 <h2>Add New Incentive/Discount</h2>
 <form asp-action="Create" method="post" id="incentiveForm">
+
     <!-- Category Selection -->
     <div class="form-group">
         <label asp-for="Category"></label>
@@ -43,17 +44,17 @@
     <!-- Minimum and Maximum Years Selection -->
     <div class="form-group" id="YearsDiv" style="display:none;">
         <label asp-for="MinimumYears"></label>
-        <input asp-for="MinimumYears" class="form-control" />
+        <input asp-for="MinimumYears" class="form-control"/>
         <span asp-validation-for="MinimumYears" class="text-danger"></span>
 
         <label asp-for="MaximumYears"></label>
-        <input asp-for="MaximumYears" class="form-control" />
+        <input asp-for="MaximumYears" class="form-control"/>
         <span asp-validation-for="MaximumYears" class="text-danger"></span>
     </div>
 
     <div class="form-group">
         <label asp-for="Percentage"></label>
-        <input asp-for="Percentage" class="form-control" required />
+        <input asp-for="Percentage" class="form-control" required/>
         <span asp-validation-for="Percentage" class="text-danger"></span>
     </div>
 

@@ -1,40 +1,77 @@
-﻿using PayrollSystem.Interfaces;
+﻿using Microsoft.Extensions.Caching.Memory;
+using PayrollSystem.Interfaces;
 using PayrollSystem.Models.Domain;
 
 namespace PayrollSystem.Services;
 
-public class SalaryService(IUnitOfWork unitOfWork)
+public class SalaryService(IUnitOfWork unitOfWork, IMemoryCache memoryCache)
 {
-    public async Task<IEnumerable<Salary>> GetAllSalariesAsync()
-    {
-        return await unitOfWork.Salaries.GetAllAsync();
-    }
+    private const string SalariesCacheKey = "SalariesCacheKey";
 
+    public async Task<IEnumerable<Salary>?> GetAllSalariesAsync()
+    {
+        if (memoryCache.TryGetValue(SalariesCacheKey, out List<Salary>? salaries)) return salaries;
+        salaries = (await unitOfWork.Salaries.GetAllAsync()).ToList();
+        memoryCache.Set(SalariesCacheKey, salaries);
+
+        return salaries;
+    }
     public async Task<Salary?> GetByIdAsync(int id)
     {
-        return await unitOfWork.Salaries.GetByIdAsync(id);
+        var salaries = await GetAllSalariesAsync();
+        return salaries?.FirstOrDefault(s => s.Id == id);
     }
 
     public async Task AddSalaryAsync(Salary salary)
     {
         await unitOfWork.Salaries.AddAsync(salary);
         await unitOfWork.CompleteAsync();
+
+        if (memoryCache.TryGetValue(SalariesCacheKey, out List<Salary>? salaries))
+        {
+            salaries?.Add(salary);
+            memoryCache.Set(SalariesCacheKey, salaries);
+        }
     }
 
     public async Task UpdateSalaryAsync(Salary salary)
     {
         unitOfWork.Salaries.Update(salary);
         await unitOfWork.CompleteAsync();
+
+        if (memoryCache.TryGetValue(SalariesCacheKey, out List<Salary>? salaries))
+        {
+            if (salaries != null)
+            {
+                var index = salaries.FindIndex(s => s.Id == salary.Id);
+                if (index >= 0)
+                {
+                    salaries[index] = salary;
+                    memoryCache.Set(SalariesCacheKey, salaries);
+                }
+            }
+        }
     }
 
     public async Task DeleteSalaryAsync(int id)
     {
         await unitOfWork.Salaries.DeleteAsync(id);
         await unitOfWork.CompleteAsync();
+
+        if (memoryCache.TryGetValue(SalariesCacheKey, out List<Salary>? salaries))
+        {
+            var salaryToRemove = salaries?.FirstOrDefault(s => s.Id == id);
+            if (salaryToRemove != null)
+            {
+                salaries?.Remove(salaryToRemove);
+                memoryCache.Set(SalariesCacheKey, salaries);
+            }
+        }
     }
 
     public async Task<bool> CheckExistenceAsync(JobGrade salaryJobGrade)
     {
-        return await unitOfWork.Salaries.CheckExistenceAsync(salaryJobGrade);
+        var salaries = await GetAllSalariesAsync();
+        return salaries != null && salaries.Any(s => s.JobGrade == salaryJobGrade);
     }
 }

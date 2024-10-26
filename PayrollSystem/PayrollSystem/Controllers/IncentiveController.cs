@@ -22,6 +22,12 @@ namespace PayrollSystem.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(IncentiveAndDiscount incentiveAndDiscount)
         {
+            if (await incentiveService.CheckExistenceAsync(incentiveAndDiscount.Type))
+            {
+                TempData["Message"] = "A Value for this Incentive and Discount Type already exists.";
+                return RedirectToAction(nameof(Index));
+            }
+
             if (ModelState.IsValid)
             {
                 await incentiveService.AddIncentiveAsync(incentiveAndDiscount);
@@ -29,6 +35,7 @@ namespace PayrollSystem.Controllers
             }
 
             ViewBag.Departments = await departmentService.GetAllDepartmentsAsync();
+
             return View(incentiveAndDiscount);
         }
 

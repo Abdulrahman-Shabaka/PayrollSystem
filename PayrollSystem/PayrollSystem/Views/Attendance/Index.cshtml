@@ -2,6 +2,14 @@
 @model IEnumerable<PayrollSystem.Models.Domain.Attendance>
 
 <h2>Attendance List</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-warning" role="alert">
+        @TempData["Message"]
+    </div>
+}
+
 <table class="table">
     <thead>
     <tr>

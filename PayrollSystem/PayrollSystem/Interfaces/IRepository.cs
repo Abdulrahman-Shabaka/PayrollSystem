@@ -20,3 +20,8 @@ public interface ISalaryRepository : IRepository<Salary>
 {
     Task<bool> CheckExistenceAsync(JobGrade grade);
 }
+
+public interface IAttendanceRepository : IRepository<Attendance>
+{
+    Task<bool> CheckExistenceAsync(int employeeId, DateTime date);
+}

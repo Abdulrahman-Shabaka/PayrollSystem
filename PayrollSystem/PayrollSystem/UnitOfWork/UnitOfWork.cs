@@ -9,15 +9,15 @@ public class UnitOfWork(PayrollContext context) : IUnitOfWork
 {
     private IRepository<Employee>? _employees;
     private IRepository<Department>? _departments;
-    private ISalaryRepository? _salaries;
+    private IRepository<Salary>? _salaries;
     private IRepository<IncentiveAndDiscount>? _incentives;
-    private IRepository<Attendance>? _attendances;
+    private AttendanceRepository? _attendances;
 
     public IRepository<Employee> Employees => _employees ??= new Repository<Employee>(context);
     public IRepository<Department> Departments => _departments ??= new Repository<Department>(context);
-    public ISalaryRepository Salaries => _salaries ??= new SalaryRepository(context);
+    public IRepository<Salary> Salaries => _salaries ??= new Repository<Salary>(context);
     public IRepository<IncentiveAndDiscount> Incentives => _incentives ??= new Repository<IncentiveAndDiscount>(context);
-    public IRepository<Attendance> Attendances => _attendances ??= new Repository<Attendance>(context);
+    public IAttendanceRepository Attendances => _attendances ??= new AttendanceRepository(context);
 
     public async Task<int> CompleteAsync()
     {

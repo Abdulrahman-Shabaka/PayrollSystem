@@ -16,7 +16,7 @@
 
     <div class="form-group">
         <label asp-for="Date"></label>
-        <input asp-for="Date" class="form-control" type="date" required />
+        <input asp-for="Date" class="form-control" type="date" required readonly />
         <span asp-validation-for="Date" class="text-danger"></span>
     </div>
     
@@ -60,8 +60,8 @@
                 var absentValue = '@(Convert.ToInt32(AttendanceStatus.Absent))';
 
                 if (statusSelect == absentValue) {
-                    $('#loginTime').prop('disabled', true);
-                    $('#logoutTime').prop('disabled', true);
+                    $('#loginTime').prop('disabled', true).val('');
+                    $('#logoutTime').prop('disabled', true).val('');
                 } else {
                     $('#loginTime').prop('disabled', false);
                     $('#logoutTime').prop('disabled', false);

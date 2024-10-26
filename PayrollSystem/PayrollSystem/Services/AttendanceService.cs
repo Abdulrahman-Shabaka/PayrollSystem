@@ -32,4 +32,9 @@ public class AttendanceService(IUnitOfWork unitOfWork)
         await unitOfWork.Attendances.DeleteAsync(id);
         await unitOfWork.CompleteAsync();
     }
+
+    public async Task<bool> CheckExistenceAsync(int employeeId, DateTime date)
+    {
+        return await unitOfWork.Attendances.CheckExistenceAsync(employeeId, date);
+    }
 }
