@@ -14,10 +14,9 @@ public class MappingProfile : Profile
 
         CreateMap<Employee, EmployeeDto>()
             .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.Department.Name))
-            .ForMember(dest => dest.Attendance, opt => opt.MapFrom(src =>
-                src.Attendances
-                    .AsQueryable().FirstOrDefault(a => DateOnly.FromDateTime(a.Date) == DateOnly.FromDateTime(DateTime.Now))
-            ));
+            .ForMember(dest => dest.Attendance, opt => opt.MapFrom(src => src.Attendances.FirstOrDefault()));
+
+        CreateMap<EmployeeReportResponseDto, EmployeeReportViewDto>();
 
         CreateMap<Attendance, AttendanceDto>()
             .ForMember(dest => dest.EmployeeName, opt => opt.MapFrom(src => src.Employee.Name));

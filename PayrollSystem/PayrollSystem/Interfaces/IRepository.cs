@@ -1,6 +1,4 @@
-﻿using PayrollSystem.Models.Domain;
-
-namespace PayrollSystem.Interfaces;
+﻿namespace PayrollSystem.Interfaces;
 
 public interface IRepository<T> where T : class
 {
@@ -9,19 +7,4 @@ public interface IRepository<T> where T : class
     Task AddAsync(T entity);
     void Update(T entity);
     Task DeleteAsync(int id);
-}
-
-public interface IEmployeeRepository : IRepository<Employee>
-{
-    Task<IEnumerable<Employee>> GetWithFiltrationAsync(string? name, bool? hasSalary);
-}
-
-public interface ISalaryRepository : IRepository<Salary>
-{
-    Task<bool> CheckExistenceAsync(JobGrade grade);
-}
-
-public interface IAttendanceRepository : IRepository<Attendance>
-{
-    Task<bool> CheckExistenceAsync(int employeeId, DateTime date);
 }

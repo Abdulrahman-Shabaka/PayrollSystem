@@ -142,5 +142,3 @@ D:\Development\MyDev\PayrollSystem\PayrollSystem\PayrollSystem\bin\Debug\net8.0\
 D:\Development\MyDev\PayrollSystem\PayrollSystem\PayrollSystem\obj\Debug\net8.0\PayrollSystem.csproj.AssemblyReference.cache
 D:\Development\MyDev\PayrollSystem\PayrollSystem\PayrollSystem\obj\Debug\net8.0\PayrollS.23757077.Up2Date
 D:\Development\MyDev\PayrollSystem\PayrollSystem\PayrollSystem\bin\Debug\net8.0\AutoMapper.dll
-D:\Development\MyDev\PayrollSystem\PayrollSystem\PayrollSystem\bin\Debug\net8.0\Castle.Core.dll
-D:\Development\MyDev\PayrollSystem\PayrollSystem\PayrollSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll

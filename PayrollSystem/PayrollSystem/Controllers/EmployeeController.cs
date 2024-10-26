@@ -11,7 +11,7 @@ public class EmployeeController(EmployeeService employeeService, DepartmentServi
 {
     public async Task<IActionResult> Index()
     {
-        var employees = await employeeService.GetAllEmployeesAsync();
+        var employees = await employeeService.GetWithRelatedDate();
         var employeesDto = mapper.Map<List<EmployeeDto>>(employees);
         return View(employeesDto);
     }

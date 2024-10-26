@@ -12,11 +12,6 @@ public class PayrollContext(DbContextOptions<PayrollContext> options) : DbContex
     public DbSet<IncentiveAndDiscount> Incentives { get; set; }
     public DbSet<Attendance> Attendances { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseLazyLoadingProxies();
-    }
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Salary>()

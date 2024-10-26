@@ -5,15 +5,15 @@ using PayrollSystem.Models.Domain;
 
 namespace PayrollSystem.Services
 {
-    public class IncentiveService(IUnitOfWork unitOfWork, IMemoryCache memoryCache)
+    public class IncentiveAndDiscountService(IUnitOfWork unitOfWork, IMemoryCache memoryCache)
     {
         private const string IncentivesCacheKey = "IncentivesCacheKey";
         private readonly TimeSpan _cacheExpiration = TimeSpan.FromMinutes(30);
 
-        public async Task<IEnumerable<IncentiveAndDiscount>?> GetAllIncentivesAsync()
+        public async Task<IEnumerable<IncentiveAndDiscount>> GetAllIncentivesAsync()
         {
             if (memoryCache.TryGetValue(IncentivesCacheKey, out List<IncentiveAndDiscount>? incentives))
-                return incentives;
+                return incentives ?? [];
 
             incentives = (await unitOfWork.Incentives.GetAllAsync()).ToList();
             memoryCache.Set(IncentivesCacheKey, incentives, new MemoryCacheEntryOptions
@@ -86,10 +86,10 @@ namespace PayrollSystem.Services
             }
         }
 
-        public async Task<bool> CheckExistenceAsync(IncentiveAndDiscountType type)
+        public async Task<bool> CheckExistenceAsync(IncentiveAndDiscountType type, int? departmentId)
         {
             var incentives = await GetAllIncentivesAsync();
-            return incentives != null && incentives.Any(i => i.Type == type);
+            return incentives.Any(i => i.Type == type && i.DepartmentId == departmentId);
         }
     }
 }

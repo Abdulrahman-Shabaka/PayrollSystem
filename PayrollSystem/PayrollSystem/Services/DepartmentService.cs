@@ -10,10 +10,10 @@ namespace PayrollSystem.Services
         private const string DepartmentsCacheKey = "DepartmentsCacheKey";
         private readonly TimeSpan _cacheExpiration = TimeSpan.FromMinutes(30);
 
-        public async Task<IEnumerable<Department>?> GetAllDepartmentsAsync()
+        public async Task<IEnumerable<Department>> GetAllDepartmentsAsync()
         {
             if (memoryCache.TryGetValue(DepartmentsCacheKey, out List<Department>? departments))
-                return departments;
+                return departments?? [];
 
             departments = (await unitOfWork.Departments.GetAllAsync()).ToList();
             memoryCache.Set(DepartmentsCacheKey, departments, new MemoryCacheEntryOptions
@@ -89,7 +89,7 @@ namespace PayrollSystem.Services
         public async Task<bool> CheckExistenceAsync(string departmentName)
         {
             var departments = await GetAllDepartmentsAsync();
-            return departments != null && departments.Any(s => s.Name == departmentName);
+            return departments.Any(s => s.Name == departmentName);
         }
     }
 }

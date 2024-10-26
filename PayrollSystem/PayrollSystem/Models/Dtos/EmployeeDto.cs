@@ -33,3 +33,22 @@ public class EmployeeDto
     public string? DepartmentName { get; set; }
     public AttendanceDto? Attendance { get; set; }
 }
+
+public class EmployeeReportResponseDto
+{
+    public int EmployeeId { get; set; }
+    public required string EmployeeName { get; set; }
+    public JobGrade JobGrade { get; set; }
+    public int AbsentDays { get; set; }
+    public double TotalWorkYears { get; set; }
+    public int DepartmentId { get; set; }
+    public required string DepartmentName { get; set; }
+}
+
+public class EmployeeReportViewDto : EmployeeReportResponseDto
+{
+    public decimal BaseSalary { get; set; }
+    public decimal Incentive { get; set; }
+    public decimal Discount { get; set; }
+    public decimal TotalSalary { get; set; }
+}

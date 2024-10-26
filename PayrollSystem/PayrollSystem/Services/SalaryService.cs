@@ -10,10 +10,10 @@ namespace PayrollSystem.Services
         private const string SalariesCacheKey = "SalariesCacheKey";
         private readonly TimeSpan _cacheExpiration = TimeSpan.FromMinutes(30);
 
-        public async Task<IEnumerable<Salary>?> GetAllSalariesAsync()
+        public async Task<IEnumerable<Salary>> GetAllSalariesAsync()
         {
             if (memoryCache.TryGetValue(SalariesCacheKey, out List<Salary>? salaries))
-                return salaries;
+                return salaries ?? [];
 
             salaries = (await unitOfWork.Salaries.GetAllAsync()).ToList();
             memoryCache.Set(SalariesCacheKey, salaries, new MemoryCacheEntryOptions
@@ -89,7 +89,7 @@ namespace PayrollSystem.Services
         public async Task<bool> CheckExistenceAsync(JobGrade salaryJobGrade)
         {
             var salaries = await GetAllSalariesAsync();
-            return salaries != null && salaries.Any(s => s.JobGrade == salaryJobGrade);
+            return salaries.Any(s => s.JobGrade == salaryJobGrade);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using PayrollSystem.Interfaces;
 using PayrollSystem.Models.Domain;
+using PayrollSystem.Models.Dtos;
 
 namespace PayrollSystem.Services;
 
@@ -8,6 +9,10 @@ public class EmployeeService(IUnitOfWork unitOfWork)
     public async Task<IEnumerable<Employee>> GetAllEmployeesAsync()
     {
         return await unitOfWork.Employees.GetAllAsync();
+    }
+    public async Task<IEnumerable<Employee>> GetWithRelatedDate()
+    {
+        return await unitOfWork.Employees.GetWithRelatedDate();
     }
 
     public async Task<Employee?> GetByIdAsync(int id)
@@ -31,5 +36,11 @@ public class EmployeeService(IUnitOfWork unitOfWork)
     {
         await unitOfWork.Employees.DeleteAsync(id);
         await unitOfWork.CompleteAsync();
+    }
+
+    public async Task<List<EmployeeReportResponseDto>> GetEmployeesWithAbsencesAndWorkYearsAsync(int month, int year)
+    {
+       var result = await unitOfWork.Employees.GetEmployeesWithAbsencesAndWorkYearsAsync(month, year);
+       return result;
     }
 }

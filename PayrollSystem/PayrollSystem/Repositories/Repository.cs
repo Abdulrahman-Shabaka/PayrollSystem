@@ -2,7 +2,6 @@
 
 using PayrollSystem.Data;
 using PayrollSystem.Interfaces;
-using PayrollSystem.Models.Domain;
 
 namespace PayrollSystem.Repositories;
 
@@ -13,12 +12,12 @@ public class Repository<T>(PayrollContext context) : IRepository<T>
 
     public virtual async Task<IEnumerable<T>> GetAllAsync()
     {
-        return await _dbSet.ToListAsync();
+        return await _dbSet.AsNoTracking().ToListAsync();
     }
 
-    public async Task<T?> GetByIdAsync(int id)
+    public virtual async Task<T?> GetByIdAsync(int id)
     {
-        return await _dbSet.FindAsync(id);
+        return await _dbSet.AsNoTracking().FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
     }
 
     public async Task AddAsync(T entity)
@@ -35,45 +34,5 @@ public class Repository<T>(PayrollContext context) : IRepository<T>
     {
         var entity = await _dbSet.FindAsync(id);
         if (entity != null) _dbSet.Remove(entity);
-    }
-}
-
-//public class SalaryRepository(PayrollContext context) : Repository<Salary>(context), ISalaryRepository
-//{
-//    private readonly PayrollContext _context = context;
-
-//    public async Task<bool> CheckExistenceAsync(JobGrade grade)
-//    {
-//        return await _context.Set<Salary>().AnyAsync(s => s.JobGrade == grade);
-//    }
-//}
-
-//public class EmployeeRepository(PayrollContext context) : Repository<Employee>(context), IEmployeeRepository
-//{
-//    public async Task<IEnumerable<Employee>> GetWithFiltrationAsync(string? name, bool? hasSalary)
-//    {
-//        var query = context.Set<Employee>().Include(e => e.Salary).AsQueryable();
-
-//        if (!string.IsNullOrEmpty(name))
-//        {
-//            query = query.Where(e => e.Name.Contains(name));
-//        }
-
-//        if (!hasSalary.HasValue) return await query.ToListAsync();
-//        {
-//            query = hasSalary.Value ? query.Where(e => e.Salary != null) : query.Where(e => e.Salary == null);
-//        }
-
-//        return await query.ToListAsync();
-//    }
-//}
-
-public class AttendanceRepository(PayrollContext context) : Repository<Attendance>(context), IAttendanceRepository
-{
-    private readonly PayrollContext _context = context;
-
-    public Task<bool> CheckExistenceAsync(int employeeId, DateTime date)
-    {
-        return _context.Set<Attendance>().AnyAsync(a => a.EmployeeId == employeeId && a.Date.Date == date.Date);
     }
 }

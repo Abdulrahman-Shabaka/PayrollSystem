@@ -18,7 +18,7 @@ builder.Services.AddMemoryCache();
 builder.Services.AddScoped<EmployeeService>();
 builder.Services.AddScoped<DepartmentService>();
 builder.Services.AddScoped<SalaryService>();
-builder.Services.AddScoped<IncentiveService>();
+builder.Services.AddScoped<IncentiveAndDiscountService>();
 builder.Services.AddScoped<AttendanceService>();
 
 // Add the Unit of Work and repository as well
@@ -57,6 +57,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Employee}/{action=Index}/{id?}");
 
 app.Run();

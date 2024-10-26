@@ -4,10 +4,10 @@ namespace PayrollSystem.Interfaces;
 
 public interface IUnitOfWork : IDisposable
 {
-    IRepository<Employee> Employees { get; }
+    IEmployeeRepository Employees { get; }
     IRepository<Department> Departments { get; }
     IRepository<Salary> Salaries { get; }
-    IRepository<IncentiveAndDiscount> Incentives { get; }
+    IIncentiveAndDiscountRepository Incentives { get; }
     IAttendanceRepository Attendances { get; }
     Task<int> CompleteAsync();
 }

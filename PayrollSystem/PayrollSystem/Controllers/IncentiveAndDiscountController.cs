@@ -5,11 +5,11 @@ using PayrollSystem.Services;
 
 namespace PayrollSystem.Controllers
 {
-    public class IncentiveController(IncentiveService incentiveService, DepartmentService departmentService) : Controller
+    public class IncentiveAndDiscountController(IncentiveAndDiscountService incentiveAndDiscountService, DepartmentService departmentService) : Controller
     { 
         public async Task<IActionResult> Index()
         {
-            var incentives = await incentiveService.GetAllIncentivesAsync();
+            var incentives = await incentiveAndDiscountService.GetAllIncentivesAsync();
             return View(incentives);
         }
 
@@ -22,7 +22,7 @@ namespace PayrollSystem.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(IncentiveAndDiscount incentiveAndDiscount)
         {
-            if (await incentiveService.CheckExistenceAsync(incentiveAndDiscount.Type))
+            if (await incentiveAndDiscountService.CheckExistenceAsync(incentiveAndDiscount.Type, incentiveAndDiscount.DepartmentId))
             {
                 TempData["Message"] = "A Value for this Incentive and Discount Type already exists.";
                 return RedirectToAction(nameof(Index));
@@ -30,7 +30,7 @@ namespace PayrollSystem.Controllers
 
             if (ModelState.IsValid)
             {
-                await incentiveService.AddIncentiveAsync(incentiveAndDiscount);
+                await incentiveAndDiscountService.AddIncentiveAsync(incentiveAndDiscount);
                 return RedirectToAction(nameof(Index));
             }
 
@@ -41,7 +41,7 @@ namespace PayrollSystem.Controllers
 
         public async Task<IActionResult> Edit(int id)
         {
-            var incentive = await incentiveService.GetByIdAsync(id);
+            var incentive = await incentiveAndDiscountService.GetByIdAsync(id);
             if (incentive == null) return NotFound();
 
             ViewBag.Departments = await departmentService.GetAllDepartmentsAsync();
@@ -53,7 +53,7 @@ namespace PayrollSystem.Controllers
         {
             if (ModelState.IsValid)
             {
-                await incentiveService.UpdateIncentiveAsync(incentiveAndDiscount);
+                await incentiveAndDiscountService.UpdateIncentiveAsync(incentiveAndDiscount);
                 return RedirectToAction(nameof(Index));
             }
 
@@ -63,7 +63,7 @@ namespace PayrollSystem.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            await incentiveService.DeleteIncentiveAsync(id);
+            await incentiveAndDiscountService.DeleteIncentiveAsync(id);
             return RedirectToAction(nameof(Index));
         }
     }

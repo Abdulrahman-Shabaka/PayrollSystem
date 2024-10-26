@@ -1,48 +1,41 @@
 ﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
 @model PayrollSystem.Models.Domain.IncentiveAndDiscount
 
-<h2>Edit IncentiveAndDiscount</h2>
+<h2>Edit Incentive/Discounts</h2>
 <form asp-action="Edit" method="post" id="incentiveForm">
     <input type="hidden" asp-for="Id" />
 
-    <!-- Category Display -->
-    @if (Model.Category != null)
-    {
-        <div class="form-group">
+  
+    <div class="form-group">
             <label asp-for="Category"></label>
             <input asp-for="Category" class="form-control" readonly />
             <span asp-validation-for="Category" class="text-danger"></span>
-        </div>
-    }
+     </div>
+    
 
-    <!-- Type Display -->
-    @if (Model.Type != null)
+    
+     <div class="form-group">
+         <label asp-for="Type"></label>
+         <input asp-for="Type" class="form-control" readonly />
+         <span asp-validation-for="Type" class="text-danger"></span>
+     </div>
+    
+    
+    @if (Model.Department != null)
     {
-        <div class="form-group">
-            <label asp-for="Type"></label>
-            <input asp-for="Type" class="form-control" readonly />
-            <span asp-validation-for="Type" class="text-danger"></span>
+        <div class="form-group" id="DepartmentDiv">
+            <label asp-for="Department!.Name"></label>
+            <input asp-for="Department!.Name" class="form-control" readonly />
+            <span asp-validation-for="Department!.Name" class="text-danger"></span>
         </div>
     }
 
-    <!-- Percentage Field -->
     <div class="form-group">
         <label asp-for="Percentage"></label>
         <input asp-for="Percentage" class="form-control" required />
         <span asp-validation-for="Percentage" class="text-danger"></span>
     </div>
 
-    <!-- Department Selection -->
-    @if (Model.Department != null && Model.Department.Name != null)
-    {
-        <div class="form-group" id="DepartmentDiv">
-            <label asp-for="Department.Name"></label>
-            <input asp-for="Department.Name" class="form-control" readonly />
-            <span asp-validation-for="Department.Name" class="text-danger"></span>
-        </div>
-    }
-
-    <!-- Minimum and Maximum Years Selection -->
     @if (Model.MinimumYears.HasValue || Model.MaximumYears.HasValue)
     {
         <div class="form-group" id="YearsDiv">
