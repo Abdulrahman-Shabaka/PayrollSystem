@@ -20,12 +20,15 @@ public class DepartmentController(DepartmentService departmentService) : Control
     [HttpPost]
     public async Task<IActionResult> Create(Department department)
     {
-        if (ModelState.IsValid)
+        if (await departmentService.CheckExistenceAsync(department.Name))
         {
-            await departmentService.AddDepartmentAsync(department);
+            TempData["Message"] = "A Value for this Incentive and Discount Type already exists.";
             return RedirectToAction(nameof(Index));
         }
-        return View(department);
+
+        if (!ModelState.IsValid) return View(department);
+        await departmentService.AddDepartmentAsync(department);
+        return RedirectToAction(nameof(Index));
     }
 
     public async Task<IActionResult> Edit(int id)
