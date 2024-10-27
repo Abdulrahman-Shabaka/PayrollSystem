@@ -19,9 +19,6 @@ The Payroll System is designed to efficiently manage employee payroll and relate
 - **Employee Management**: 
   - Manage comprehensive employee records, including personal information, hire dates, roles, and contact details.
   
-- **Attendance Tracking**: 
-  - A script named `Fill_attendance_records` is available to generate attendance records for employees starting from their hire date, ensuring no duplication of entries.
-  
 - **Department Management**: 
   - Organize employees into various departments for enhanced management and reporting, facilitating targeted oversight and resource allocation.
   
