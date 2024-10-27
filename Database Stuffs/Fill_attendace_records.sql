@@ -1,3 +1,6 @@
+-- Using payroll_db
+Use payroll_db
+
 -- Cursor to go through each employee in the Employees table
 DECLARE EmployeeCursor CURSOR FOR 
 SELECT id, HireDate 
