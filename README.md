@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Payroll System is designed to manage employee payroll efficiently. It includes features such as employee management, attendance tracking, salary management, and reporting. Built with modern technologies, it ensures reliability and performance.
+This Payroll System is designed to manage employee payroll efficiently. It includes features such as employee management, attendance tracking, department management, salary management, incentive management, and reporting. Built with modern technologies, it ensures reliability and performance.
 
 ## Technologies Used
 
@@ -17,10 +17,13 @@ This Payroll System is designed to manage employee payroll efficiently. It inclu
 ## Features
 
 - **Employee Management**: Manage employee records, including hire dates and personal information.
-- **Attendance Tracking**: A script that generates attendance records for existing employees from their hire date.
-- **Salary Management**: Calculate and manage employee salaries.
-- **Reporting**: Generate reports for payroll and attendance.
-  
+- **Attendance Tracking**: A script that generates attendance records for existing or new employees from their hire date with no duplication.
+- **Department Management**: Organize employees into various departments for better management and reporting.
+- **Salary Management**: Calculate and manage employee salaries effectively.
+- **Incentive Management**: Manage incentives for employees to boost performance and retention.
+- **Inductive Management**: Implement strategies to encourage employee engagement and productivity.
+- **Reporting**: Generate comprehensive reports for payroll, attendance, and other management areas.
+
 ## Getting Started
 
 ### Prerequisites
@@ -29,8 +32,7 @@ This Payroll System is designed to manage employee payroll efficiently. It inclu
 - SQL Server
 - Any code editor (e.g., Visual Studio, Visual Studio Code)
 
-### Installation
+### Notes
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+1. You can find a script called "Fill_attendace_records" for filling attendance records for any employee scince he get hired in folder called Database_Stuffs.
+2. Also ther is a Full Db Backup called "Payroll_db" if you want to test with it in the folder Database_Stuffs.
