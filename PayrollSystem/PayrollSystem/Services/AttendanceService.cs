@@ -1,13 +1,18 @@
 ﻿using PayrollSystem.Interfaces;
 using PayrollSystem.Models.Domain;
+using PayrollSystem.Models.Dtos;
 
 namespace PayrollSystem.Services;
 
 public class AttendanceService(IUnitOfWork unitOfWork)
 {
-    public async Task<IEnumerable<Attendance>> GetAllAttendancesAsync()
+    public async Task<IEnumerable<AttendanceReportDto>> GetAttendanceReport(int? month, int? year, int? employeeId)
     {
-        return await unitOfWork.Attendances.GetAllAsync();
+        return await unitOfWork.Attendances.GetAttendanceReport(month, year, employeeId);
+    }
+    public async Task<IEnumerable<Attendance>> GetFilteredAttendancesAsync(int? employeeId, DateTime? date)
+    {
+        return await unitOfWork.Attendances.GetFilteredAttendancesAsync(employeeId, date);
     }
 
     public async Task<Attendance?> GetByIdAsync(int id)

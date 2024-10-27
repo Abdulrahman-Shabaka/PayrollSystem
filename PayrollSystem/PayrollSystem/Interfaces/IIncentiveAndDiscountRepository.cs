@@ -2,4 +2,4 @@
 
 namespace PayrollSystem.Interfaces;
 
-public interface IIncentiveAndDiscountRepository : IRepository<IncentiveAndDiscount> { }
+public interface IIncentiveAndDiscountRepository : IRepository<IncentiveAndDiscount>;

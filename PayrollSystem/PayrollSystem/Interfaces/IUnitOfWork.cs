@@ -5,7 +5,7 @@ namespace PayrollSystem.Interfaces;
 public interface IUnitOfWork : IDisposable
 {
     IEmployeeRepository Employees { get; }
-    IRepository<Department> Departments { get; }
+    IDepartmentRepository Departments { get; }
     IRepository<Salary> Salaries { get; }
     IIncentiveAndDiscountRepository Incentives { get; }
     IAttendanceRepository Attendances { get; }

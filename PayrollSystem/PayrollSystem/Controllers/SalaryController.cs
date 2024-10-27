@@ -1,5 +1,3 @@
-using AutoMapper;
-
 using Microsoft.AspNetCore.Mvc;
 
 using PayrollSystem.Models.Domain;

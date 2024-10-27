@@ -2,6 +2,7 @@
 
 using PayrollSystem.Interfaces;
 using PayrollSystem.Models.Domain;
+using PayrollSystem.Models.Dtos;
 
 namespace PayrollSystem.Services
 {
@@ -10,10 +11,16 @@ namespace PayrollSystem.Services
         private const string DepartmentsCacheKey = "DepartmentsCacheKey";
         private readonly TimeSpan _cacheExpiration = TimeSpan.FromMinutes(30);
 
+        public async Task<IEnumerable<DepartmentWithEmployeeCountDto>> GetAllDepartmentsWithEmployeeCountAsync()
+        {
+            var departments = await unitOfWork.Departments.GetDepartmentWithEmployeesCount();
+            return departments;
+        }
+
         public async Task<IEnumerable<Department>> GetAllDepartmentsAsync()
         {
             if (memoryCache.TryGetValue(DepartmentsCacheKey, out List<Department>? departments))
-                return departments?? [];
+                return departments ?? [];
 
             departments = (await unitOfWork.Departments.GetAllAsync()).ToList();
             memoryCache.Set(DepartmentsCacheKey, departments, new MemoryCacheEntryOptions

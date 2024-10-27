@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace PayrollSystem.Models.Domain;
+﻿namespace PayrollSystem.Models.Domain;
 
 public class Salary
 {

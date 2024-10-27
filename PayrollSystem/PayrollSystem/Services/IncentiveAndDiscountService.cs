@@ -89,7 +89,7 @@ namespace PayrollSystem.Services
         public async Task<bool> CheckExistenceAsync(IncentiveAndDiscountType type, int? departmentId)
         {
             var incentives = await GetAllIncentivesAsync();
-            return incentives.Any(i => i.Type == type && i.DepartmentId == departmentId);
-        }
+            return incentives.Any(i => i.Type == type && i.DepartmentId == departmentId && i.Type != IncentiveAndDiscountType.NumberOfYearsIncentive);
+}
     }
 }

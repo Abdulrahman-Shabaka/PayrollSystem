@@ -1,0 +1,23 @@
+﻿@model IEnumerable<PayrollSystem.Models.Dtos.DepartmentWithEmployeeCountDto>
+
+<h2>Department Report</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>No of Employee</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var department in Model)
+    {
+        <tr>
+            <td>@department.Name</td>
+            <td>@department.Description</td>
+            <td>@department.EmployeeCount</td>
+        </tr>
+    }
+    </tbody>
+</table>

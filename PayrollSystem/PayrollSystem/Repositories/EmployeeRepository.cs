@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+
 using PayrollSystem.Data;
 using PayrollSystem.Interfaces;
 using PayrollSystem.Models.Domain;
@@ -22,51 +23,31 @@ public class EmployeeRepository(PayrollContext context) : Repository<Employee>(c
 
     public async Task<List<EmployeeReportResponseDto>> GetEmployeesWithAbsencesAndWorkYearsAsync(int month, int year)
     {
-        // Create a date representing the first day of the specified month and year
         var specifiedDate = new DateTime(year, month, 1);
 
         var results = await _context.Employees
-            .Include(e => e.Department) // Include the Department information
-            .GroupJoin(
-                _context.Attendances.Where(a => a.Date.Month == month && a.Date.Year == year), // Filter attendances for the specific month and year
-                employee => employee.Id,
-                attendance => attendance.EmployeeId,
-                (employee, attendances) => new
-                {
-                    Employee = employee,
-                    Attendances = attendances
-                })
-            .SelectMany(
-                x => x.Attendances.DefaultIfEmpty(), // Left join to include employees without attendance records
-                (x, attendance) => new
-                {
-                    x.Employee,
-                    Attendance = attendance
-                })
-            // Check for absence using the AttendanceStatus enum
-            .Where(x => x.Attendance == null || x.Attendance.Status == AttendanceStatus.Absent)
-            .GroupBy(
-                x => new
-                {
-                    x.Employee.Id,
-                    x.Employee.Name,
-                    x.Employee.HireDate,
-                    x.Employee.JobGrade, // Include JobGrade in grouping
-                    DepartmentId = x.Employee.Department.Id, // Use unique names
-                    DepartmentName = x.Employee.Department.Name // Use unique names
-                })
-            .Select(g => new EmployeeReportResponseDto()
+            .AsNoTracking()
+            .Include(e => e.Department)
+            .Where(e => e.HireDate <= specifiedDate)
+            .Select(e => new
             {
-                EmployeeId = g.Key.Id,
-                EmployeeName = g.Key.Name,
-                AbsentDays = g.Count(x => x.Attendance == null || x.Attendance.Status == AttendanceStatus.Absent), // Count absent days
-                                                                                                                   // Calculate total work years using the specified date
-                TotalWorkYears = Math.Floor((specifiedDate - g.Key.HireDate).TotalDays / 365.25), // Calculate total work years
-                JobGrade = g.Key.JobGrade, // Include JobGrade in the result
-                DepartmentId = g.Key.DepartmentId, // Use the unique name for Department ID
-                DepartmentName = g.Key.DepartmentName // Use the unique name for Department Name
+                Employee = e,
+                AbsentDays = _context.Attendances
+                    .Count(a => a.EmployeeId == e.Id && a.Date.Month == month && a.Date.Year == year && a.Status == AttendanceStatus.Absent)
             })
-            .ToListAsync(); // Execute the query asynchronously
+            .Where(e => e.AbsentDays > 0 ||
+                        !_context.Attendances.Any(a => a.EmployeeId == e.Employee.Id && a.Date.Month == month && a.Date.Year == year))
+            .Select(e => new EmployeeReportResponseDto
+            {
+                EmployeeId = e.Employee.Id,
+                EmployeeName = e.Employee.Name,
+                AbsentDays = e.AbsentDays,
+                TotalWorkYears = Math.Floor((specifiedDate - e.Employee.HireDate).TotalDays / 365.25),
+                JobGrade = e.Employee.JobGrade,
+                DepartmentId = e.Employee.Department.Id,
+                DepartmentName = e.Employee.Department.Name
+            })
+            .ToListAsync();
 
         return results;
     }

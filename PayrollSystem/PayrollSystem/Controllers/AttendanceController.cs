@@ -1,20 +1,33 @@
 using AutoMapper;
 
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 using PayrollSystem.Models.Domain;
 using PayrollSystem.Models.Dtos;
+using PayrollSystem.Models.ViewModels;
 using PayrollSystem.Services;
 
 namespace PayrollSystem.Controllers;
 
 public class AttendanceController(AttendanceService attendanceService, EmployeeService employeeService, IMapper mapper) : Controller
 {
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> Index(int? employeeId, DateTime? date)
     {
-        var attendances = await attendanceService.GetAllAttendancesAsync();
-        return View(attendances);
+        date ??= DateTime.Now;
+
+        var attendances = await attendanceService.GetFilteredAttendancesAsync(employeeId, date);
+
+        var viewModel = new AttendanceFilterViewModel
+        {
+            Attendances = attendances.ToList(),
+            EmployeeId = employeeId,
+            SelectedDate = date
+        };
+
+        ViewBag.Employees = await employeeService.GetAllEmployeesAsync();
+        if (employeeId != null) ViewBag.SelectedEmployeeId = employeeId;
+
+        return View(viewModel);
     }
 
     public async Task<IActionResult> Create()

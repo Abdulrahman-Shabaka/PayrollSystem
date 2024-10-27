@@ -10,7 +10,6 @@
 <h2>Add New Incentive/Discounts</h2>
 <form asp-action="Create" method="post" id="incentiveForm">
 
-    <!-- Category Selection -->
     <div class="form-group">
         <label asp-for="Category"></label>
         <select asp-for="Category" class="form-control" id="Category" required>
@@ -23,7 +22,6 @@
         <span asp-validation-for="Category" class="text-danger"></span>
     </div>
 
-    <!-- Incentive/Discount Type Selection -->
     <div class="form-group">
         <label asp-for="Type"></label>
         <select asp-for="Type" class="form-control" id="IncentiveAndDiscountType" required>
@@ -32,7 +30,6 @@
         <span asp-validation-for="Type" class="text-danger"></span>
     </div>
 
-    <!-- Department Selection -->
     <div class="form-group" id="DepartmentDiv" style="display:none;">
         <label asp-for="DepartmentId"></label>
         <select asp-for="DepartmentId" class="form-control" asp-items="@(new SelectList(departments, "Id", "Name"))">
@@ -41,7 +38,6 @@
         <span asp-validation-for="DepartmentId" class="text-danger"></span>
     </div>
 
-    <!-- Minimum and Maximum Years Selection -->
     <div class="form-group" id="YearsDiv" style="display:none;">
         <label asp-for="MinimumYears"></label>
         <input asp-for="MinimumYears" class="form-control"/>
@@ -109,14 +105,13 @@
             function updateUI() {
                 const selectedType = typeSelect.value;
 
-                // Hide and reset fields initially
                 departmentDiv.style.display = 'none';
                 yearsDiv.style.display = 'none';
                 clearFields();
 
-                if (selectedType == 1) { // Department-based
+                if (selectedType == 1) {
                     departmentDiv.style.display = 'block';
-                } else if (selectedType == 2) { // Years-based
+                } else if (selectedType == 2) {
                     yearsDiv.style.display = 'block';
                 }
             }

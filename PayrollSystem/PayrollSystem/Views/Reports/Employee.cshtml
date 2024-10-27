@@ -1,6 +1,6 @@
 ﻿@using System.Globalization
 @using Microsoft.AspNetCore.Mvc.TagHelpers
-@model IEnumerable<PayrollSystem.Models.Dtos.EmployeeReportViewDto>
+@model PayrollSystem.Models.ViewModels.EmployeeReportViewModel
 
 @{
     ViewData["Title"] = "Employee Report";
@@ -8,24 +8,29 @@
 
 <h2>Employee Report</h2>
 
-<form method="get" asp-action="Index"> <!-- Ensure the action points to Index -->
+<form method="get" asp-action="Employee">
     <div class="form-group">
-        <label for="month">Month:</label>
-        <input type="number" id="month" name="month" class="form-control" required min="1" max="12" value="@ViewBag.month" />
+        <label for="month">Select Month:</label>
+        <select asp-for="SelectedMonth" class="form-control"
+                asp-items="@(new SelectList(Enumerable.Range(1, 12).Select(i => new { Value = i, Text = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i) }), "Value", "Text", Model.SelectedMonth))">
+        </select>
     </div>
-    
+
     <div class="form-group">
-        <label for="year">Year:</label>
-        <input type="number" id="year" name="year" class="form-control" required min="2000" max="2100" value="@ViewBag.Year" />
+        <label for="year">Select Year:</label>
+        <select asp-for="SelectedYear" class="form-control"
+                asp-items="@(new SelectList(Enumerable.Range(DateTime.Now.Year - 20, 21)
+                               .OrderByDescending(year => year)
+                               .Select(i => new { Value = i, Text = i.ToString() }), "Value", "Text", Model.SelectedYear))">
+            <option value="">-- Select Year --</option>
+        </select>
     </div>
 
     <button type="submit" class="btn btn-primary">Generate Report</button>
 </form>
 
-@if (Model.Any())
+@if (Model.EmployeesReports.Any())
 {
-    <h3>Report for @CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName((int)ViewBag.Month) @ViewBag.Year</h3> <!-- Display the selected month and year -->
-    
     <table class="table table-striped">
         <thead>
         <tr>
@@ -41,7 +46,7 @@
         </tr>
         </thead>
         <tbody>
-        @foreach (var employee in Model)
+        @foreach (var employee in Model.EmployeesReports)
         {
             <tr>
                 <td>@employee.EmployeeName</td>

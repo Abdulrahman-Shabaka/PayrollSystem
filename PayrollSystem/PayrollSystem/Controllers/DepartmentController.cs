@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+
 using PayrollSystem.Models.Domain;
 using PayrollSystem.Services;
 
@@ -41,12 +42,9 @@ public class DepartmentController(DepartmentService departmentService) : Control
     [HttpPost]
     public async Task<IActionResult> Edit(Department department)
     {
-        if (ModelState.IsValid)
-        {
-            await departmentService.UpdateDepartmentAsync(department);
-            return RedirectToAction(nameof(Index));
-        }
-        return View(department);
+        if (!ModelState.IsValid) return View(department);
+        await departmentService.UpdateDepartmentAsync(department);
+        return RedirectToAction(nameof(Index));
     }
 
     public async Task<IActionResult> Delete(int id)

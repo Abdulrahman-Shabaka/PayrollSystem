@@ -1,0 +1,65 @@
+﻿@using System.Globalization
+@model PayrollSystem.Models.ViewModels.AttendanceReportViewModel
+
+<h2>Attendance Report</h2>
+
+<form method="get">
+    <div class="form-group">
+        <label for="employeeId">Select Employee:</label>
+        <select asp-for="SelectedEmployeeId" class="form-control"
+                asp-items="@(new SelectList(ViewBag.Employees, "Id", "Name", Model.SelectedEmployeeId))">
+            <option value="">-- Select Employee --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="month">Select Month:</label>
+        <select asp-for="SelectedMonth" class="form-control"
+                asp-items="@(new SelectList(Enumerable.Range(1, 12).Select(i => new { Value = i, Text = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i) }), "Value", "Text", Model.SelectedMonth))">
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="year">Select Year:</label>
+        <select asp-for="SelectedYear" class="form-control"
+                asp-items="@(new SelectList(Enumerable.Range(DateTime.Now.Year - 20, 21)
+                               .OrderByDescending(year => year)
+                               .Select(i => new { Value = i, Text = i.ToString() }), "Value", "Text", Model.SelectedYear))">
+            <option value="">-- Select Year --</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Employee Name</th>
+            <th>Year</th>
+            <th>Month</th>
+            <th>Days Attended</th>
+            <th>Days Absent</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.AttendanceReports.Any())
+        {
+            foreach (var item in Model.AttendanceReports)
+            {
+                <tr>
+                    <td>@item.EmployeeName</td>
+                    <td>@item.Year</td>
+                    <td>@item.Month</td>
+                    <td>@item.DaysAttended</td>
+                    <td>@item.DaysAbsent</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No records found.</td>
+            </tr>
+        }
+    </tbody>
+</table>

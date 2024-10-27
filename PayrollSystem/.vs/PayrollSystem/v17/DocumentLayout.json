@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\incentiveanddiscountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\incentiveanddiscountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\incentiveanddiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\incentiveanddiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\reports\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\reports\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\reports\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\reports\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\employeereportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\employeereportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\viewmodels\\employeereportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\viewmodels\\employeereportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\employeereports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\employeereports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\viewmodels\\attendancefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\viewmodels\\attendancefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,44 +63,32 @@
       "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\incentiveanddiscounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\incentiveanddiscounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\reports\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\reports\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\jobgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\jobgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,92 +99,144 @@
       "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\attendancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\attendancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\incentiveanddiscountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\incentiveanddiscountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\incentiveanddiscount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\incentiveanddiscount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\incentiveanddiscount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\incentiveanddiscount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\incentiveanddiscount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\incentiveanddiscount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\salary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\salary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\incentiveanddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\incentiveanddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\incentiveanddiscountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\incentiveanddiscountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\incentiveanddiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\incentiveanddiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iincentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iincentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\repositories\\incentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\repositories\\incentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\data\\payrollcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\data\\payrollcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\incentiveanddiscount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\incentiveanddiscount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\incentiveanddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\incentiveanddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\incentiveanddiscount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\incentiveanddiscount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\incentiveanddiscountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\incentiveanddiscountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\salary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\salary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\dtos\\departmentwithemployeecountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\dtos\\departmentwithemployeecountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\repositories\\incentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\repositories\\incentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\jobgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\jobgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\incentiveanddiscounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\incentiveanddiscounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\models\\domain\\attendancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\models\\domain\\attendancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iincentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iincentiveanddiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\data\\payrollcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\data\\payrollcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\incentiveanddiscount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\incentiveanddiscount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\salary\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -183,28 +247,8 @@
       "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|d:\\development\\mydev\\payrollsystem\\payrollsystem\\payrollsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF225609-04CB-46C8-B4D4-732AF27BFBD6}|PayrollSystem\\PayrollSystem.csproj|solutionrelative:payrollsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -214,193 +258,375 @@
       "DocumentGroups": [
         {
           "DockedWidth": 246,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AttendanceController.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\AttendanceController.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\AttendanceController.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\AttendanceController.cs",
-              "RelativeToolTip": "PayrollSystem\\Controllers\\AttendanceController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAnwA8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:15:53.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "PayrollSystem\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:52:34.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\EmployeeReports\\Index.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\EmployeeReports\\Index.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\EmployeeReports\\Index.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\EmployeeReports\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T12:40:42.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:09:58.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\Repository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\Repository.cs",
-              "RelativeToolTip": "PayrollSystem\\Repositories\\Repository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:36:03.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AttendanceRepository.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\AttendanceRepository.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\AttendanceRepository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\AttendanceRepository.cs",
-              "RelativeToolTip": "PayrollSystem\\Repositories\\AttendanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:08:09.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T11:49:12.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeReportsController.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\EmployeeReportsController.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\EmployeeReportsController.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\EmployeeReportsController.cs",
-              "RelativeToolTip": "PayrollSystem\\Controllers\\EmployeeReportsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABZAAAAAAAAAA==",
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "PayrollSystem\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T12:39:11.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SalaryController.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\SalaryController.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\SalaryController.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\SalaryController.cs",
-              "RelativeToolTip": "PayrollSystem\\Controllers\\SalaryController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:23:59.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAIA4wC8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:11:54.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "PayrollSystem\\Services\\EmployeeService.cs",
               "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\EmployeeService.cs",
               "RelativeToolTip": "PayrollSystem\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAEwCoAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T09:40:46.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Index.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Attendance\\Index.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Index.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Attendance\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T08:32:12.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:49:12.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Reports\\Employee.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Reports\\Employee.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Reports\\Employee.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Reports\\Employee.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T12:40:42.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:10:14.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeReportViewModel.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\ViewModels\\EmployeeReportViewModel.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\ViewModels\\EmployeeReportViewModel.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\ViewModels\\EmployeeReportViewModel.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\ViewModels\\EmployeeReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T04:37:59.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalaryController.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\SalaryController.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\SalaryController.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\SalaryController.cs",
+              "RelativeToolTip": "PayrollSystem\\Controllers\\SalaryController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:23:59.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\EmployeeRepository.cs*",
-              "RelativeToolTip": "PayrollSystem\\Repositories\\EmployeeRepository.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAIwD8AAAA6AAAAAAAAAA==",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T11:08:05.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "PayrollSystem\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:15:53.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncentiveAndDiscountController.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
+              "RelativeToolTip": "PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:41:15.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IncentiveAndDiscountService.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
+              "RelativeToolTip": "PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:37:29.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "PayrollSystem\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAawEgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T09:40:34.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
-              "RelativeToolTip": "PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:07:52.191Z",
+              "DocumentIndex": 5,
+              "Title": "Attendance.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Reports\\Attendance.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Reports\\Attendance.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Reports\\Attendance.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Reports\\Attendance.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T19:03:05.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\AttendanceRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\AttendanceRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Repositories\\AttendanceRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwDYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:08:09.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "PayrollSystem\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:52:34.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAttendanceRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:07:57.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AttendanceFilterViewModel.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\ViewModels\\AttendanceFilterViewModel.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\ViewModels\\AttendanceFilterViewModel.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\ViewModels\\AttendanceFilterViewModel.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\ViewModels\\AttendanceFilterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:44:17.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Dtos\\EmployeeDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:11:54.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AttendanceService.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\AttendanceService.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Services\\AttendanceService.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\AttendanceService.cs",
+              "RelativeToolTip": "PayrollSystem\\Services\\AttendanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:56:13.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Department.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Reports\\Department.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Reports\\Department.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Reports\\Department.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Reports\\Department.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T16:41:56.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AttendanceDto.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:07:20.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\Employee.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Employee.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:40:30.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Attendance.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\Attendance.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Attendance.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:15:49.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Department.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\Department.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Department.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:06:11.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:56:20.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Services\\DepartmentService.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "PayrollSystem\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:43:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T08:25:02.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PayrollSystem\\Views\\_ViewImports.cshtml",
@@ -413,176 +639,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T11:10:14.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Create.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Department\\Create.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Create.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Department\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Create.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Attendance\\Create.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Create.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Attendance\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T11:09:42.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IncentiveAndDiscountType.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:38:32.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Create.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Salary\\Create.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Create.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Salary\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T11:10:01.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Index.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Salary\\Index.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Index.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Salary\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T11:10:05.508Z",
+              "WhenOpened": "2024-10-26T08:36:47.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "IIncentiveAndDiscountRepository.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
-              "RelativeToolTip": "PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "PayrollSystem\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:21:54.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "JobGrade.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\JobGrade.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\JobGrade.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\JobGrade.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\JobGrade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T12:45:24.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Salary.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Salary.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\Salary.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Salary.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\Salary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T12:45:29.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IncentiveAndDiscountRepository.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
-              "RelativeToolTip": "PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:27:26.075Z",
+              "WhenOpened": "2024-10-26T07:36:41.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T11:55:47.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Employee.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\Employee.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Employee.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:40:30.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Attendance.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\Attendance.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Attendance.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:15:49.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "IncentiveAndDiscount.cs",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\IncentiveAndDiscount.cs",
               "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\IncentiveAndDiscount.cs",
               "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\IncentiveAndDiscount.cs",
               "RelativeToolTip": "PayrollSystem\\Models\\Domain\\IncentiveAndDiscount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T11:51:12.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "IncentiveAndDiscountCategory.cs",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\IncentiveAndDiscountCategory.cs",
               "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\IncentiveAndDiscountCategory.cs",
@@ -595,150 +691,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IAttendanceRepository.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
-              "RelativeToolTip": "PayrollSystem\\Interfaces\\IAttendanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:07:57.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AttendanceDto.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
-              "RelativeToolTip": "PayrollSystem\\Models\\Dtos\\AttendanceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:07:20.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 33,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwDsAAAAOAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T09:43:46.573Z",
+              "WhenOpened": "2024-10-26T07:45:40.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "PayrollContext.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Data\\PayrollContext.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Data\\PayrollContext.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Data\\PayrollContext.cs",
-              "RelativeToolTip": "PayrollSystem\\Data\\PayrollContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:56:00.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Department\\Edit.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Edit.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Department\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Index.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Salary\\Index.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Index.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Salary\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T08:53:56.812Z",
+              "WhenOpened": "2024-10-26T11:10:05.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 29,
+              "Title": "bootstrap.bundle.min.js",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+              "RelativeDocumentMoniker": "PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+              "RelativeToolTip": "PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T17:58:28.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Index.cshtml",
               "RelativeDocumentMoniker": "PayrollSystem\\Views\\Department\\Index.cshtml",
               "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Index.cshtml",
               "RelativeToolTip": "PayrollSystem\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-26T08:53:16.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Services\\DepartmentService.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\DepartmentService.cs",
-              "RelativeToolTip": "PayrollSystem\\Services\\DepartmentService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFsAAAATAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:43:44.481Z",
+              "WhenOpened": "2024-10-26T16:15:50.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:32:05.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IncentiveAndDiscountRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Repositories\\IncentiveAndDiscountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:27:26.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:16:05.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DepartmentWithEmployeeCountDto.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\DepartmentWithEmployeeCountDto.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Dtos\\DepartmentWithEmployeeCountDto.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Dtos\\DepartmentWithEmployeeCountDto.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Dtos\\DepartmentWithEmployeeCountDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:19:56.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Program.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Program.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Program.cs",
+              "RelativeToolTip": "PayrollSystem\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:22:54.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Create.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Attendance\\Create.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Create.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Attendance\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T08:36:47.996Z",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Repositories\\Repository.cs",
+              "RelativeToolTip": "PayrollSystem\\Repositories\\Repository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAawCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:36:03.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Attendance\\Edit.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Edit.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Attendance\\Edit.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T08:34:27.414Z",
+              "DocumentIndex": 43,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "PayrollSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAALwDAAAAAAAAAAAswNIDAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T16:13:26.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Index.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Attendance\\Index.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Index.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\Attendance\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T08:32:12.132Z",
+              "DocumentIndex": 45,
+              "Title": "SalaryService.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\SalaryService.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Services\\SalaryService.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\SalaryService.cs",
+              "RelativeToolTip": "PayrollSystem\\Services\\SalaryService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:06:38.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\IncentiveAndDiscount\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T08:25:02.772Z",
+              "DocumentIndex": 46,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:09:09.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 48,
+              "Title": "JobGrade.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\JobGrade.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\JobGrade.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\JobGrade.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\JobGrade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:45:24.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Salary.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\Salary.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\Salary.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\Salary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:45:29.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IncentiveAndDiscountType.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Domain\\IncentiveAndDiscountType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:38:32.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "AttendanceStatus.cs",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Domain\\AttendanceStatus.cs",
               "RelativeDocumentMoniker": "PayrollSystem\\Models\\Domain\\AttendanceStatus.cs",
@@ -751,132 +925,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "PayrollSystem\\Models\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:09:58.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IIncentiveAndDiscountRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Interfaces\\IIncentiveAndDiscountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:21:54.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "PayrollSystem\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:07:52.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PayrollContext.cs",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Data\\PayrollContext.cs",
+              "RelativeDocumentMoniker": "PayrollSystem\\Data\\PayrollContext.cs",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Data\\PayrollContext.cs",
+              "RelativeToolTip": "PayrollSystem\\Data\\PayrollContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:56:00.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Edit.cshtml",
               "RelativeDocumentMoniker": "PayrollSystem\\Views\\IncentiveAndDiscount\\Edit.cshtml",
               "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Edit.cshtml",
               "RelativeToolTip": "PayrollSystem\\Views\\IncentiveAndDiscount\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-26T08:12:39.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IRepository.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "PayrollSystem\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:56:20.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "AttendanceService.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\AttendanceService.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Services\\AttendanceService.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\AttendanceService.cs",
-              "RelativeToolTip": "PayrollSystem\\Services\\AttendanceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:56:13.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 60,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
-              "RelativeDocumentMoniker": "PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
-              "RelativeToolTip": "PayrollSystem\\Views\\IncentiveAndDiscount\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T07:45:40.856Z",
+              "WhenOpened": "2024-10-26T09:43:46.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IncentiveAndDiscountController.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
-              "RelativeToolTip": "PayrollSystem\\Controllers\\IncentiveAndDiscountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:41:15.364Z",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Attendance\\Edit.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Attendance\\Edit.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Attendance\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T08:34:27.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IncentiveAndDiscountService.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
-              "RelativeToolTip": "PayrollSystem\\Services\\IncentiveAndDiscountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:37:29.77Z",
+              "DocumentIndex": 56,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Department\\Create.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:09:42.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "PayrollSystem\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:36:41.178Z",
+              "DocumentIndex": 57,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T08:53:56.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "PayrollSystem\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:32:05.911Z",
+              "DocumentIndex": 59,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Create.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Salary\\Create.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Salary\\Create.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Salary\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:10:01.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Program.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Program.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Program.cs",
-              "RelativeToolTip": "PayrollSystem\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:22:54.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "SalaryService.cs",
-              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\SalaryService.cs",
-              "RelativeDocumentMoniker": "PayrollSystem\\Services\\SalaryService.cs",
-              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Services\\SalaryService.cs",
-              "RelativeToolTip": "PayrollSystem\\Services\\SalaryService.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:06:38.574Z",
+              "DocumentIndex": 61,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Development\\MyDev\\PayrollSystem\\PayrollSystem\\PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PayrollSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:55:47.573Z",
               "EditorCaption": ""
             }
           ]

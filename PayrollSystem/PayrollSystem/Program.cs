@@ -8,24 +8,19 @@ using PayrollSystem.UnitOfWork;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Allow memory cache
 builder.Services.AddMemoryCache();
 
-// Register your services with DI
 builder.Services.AddScoped<EmployeeService>();
 builder.Services.AddScoped<DepartmentService>();
 builder.Services.AddScoped<SalaryService>();
 builder.Services.AddScoped<IncentiveAndDiscountService>();
 builder.Services.AddScoped<AttendanceService>();
 
-// Add the Unit of Work and repository as well
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-// Configure the DbContext with SQL Server
 builder.Services.AddDbContext<PayrollContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -33,7 +28,6 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

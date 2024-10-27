@@ -46,10 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/EmployeeReports/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVSZXBvcnRzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,14 +58,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/IncentiveAndDiscount/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jZW50aXZlQW5kRGlzY291bnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +68,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/IncentiveAndDiscount/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jZW50aXZlQW5kRGlzY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Reports/Attendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xBdHRlbmRhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Reports/Department.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xEZXBhcnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Reports/Employee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Development/MyDev/PayrollSystem/PayrollSystem/PayrollSystem/Views/Salary/Create.cshtml]

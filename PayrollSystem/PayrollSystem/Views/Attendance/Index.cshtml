@@ -1,7 +1,21 @@
-﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
-@model IEnumerable<PayrollSystem.Models.Domain.Attendance>
+﻿@model PayrollSystem.Models.ViewModels.AttendanceFilterViewModel
 
 <h2>Attendance List</h2>
+
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <label for="employeeId">Employee Name</label>
+        <select asp-for="EmployeeId" class="form-control"
+                asp-items="@(new SelectList(ViewBag.Employees, "Id", "Name", Model.EmployeeId))">
+            <option value="">-- Select Employee --</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" name="date" class="form-control" value="@(Model.SelectedDate?.ToString("yyyy-MM-dd") ?? DateTime.Now.ToString("yyyy-MM-dd"))" />
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
 
 @if (TempData["Message"] != null)
 {
@@ -12,32 +26,32 @@
 
 <table class="table">
     <thead>
-    <tr>
-        <th>Employee Name</th>
-        <th>Date</th>
-        <th>Status</th>
-        <th>Reason</th>
-        <th>Login Time</th>
-        <th>Logout Time</th>
-        <th>Actions</th>
-    </tr>
+        <tr>
+            <th>Employee Name</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Reason</th>
+            <th>Login Time</th>
+            <th>Logout Time</th>
+            <th>Actions</th>
+        </tr>
     </thead>
     <tbody>
-    @foreach (var attendance in Model)
-    {
-        <tr>
-            <td>@attendance.Employee.Name</td>
-            <td>@attendance.Date.ToString("yyyy-MM-dd")</td>
-            <td>@attendance.Status.ToString()</td>
-            <td>@attendance.Reason</td>
-            <td>@attendance.LoginTime?.ToString("HH:mm")</td>
-            <td>@attendance.LogoutTime?.ToString("HH:mm")</td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@attendance.Id" class="btn btn-warning">Edit</a>
-                <a asp-action="Delete" asp-route-id="@attendance.Id" class="btn btn-danger">Delete</a>
-            </td>
-        </tr>
-    }
+        @foreach (var attendance in Model.Attendances)
+        {
+            <tr>
+                <td>@attendance.Employee.Name</td>
+                <td>@attendance.Date.ToString("yyyy-MM-dd")</td>
+                <td>@attendance.Status.ToString()</td>
+                <td>@attendance.Reason</td>
+                <td>@attendance.LoginTime?.ToString("HH:mm")</td>
+                <td>@attendance.LogoutTime?.ToString("HH:mm")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@attendance.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@attendance.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
 

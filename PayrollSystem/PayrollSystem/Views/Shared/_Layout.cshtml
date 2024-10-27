@@ -20,39 +20,43 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
 
-                        <!-- Employee link -->
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Index">Employees</a>
                         </li>
 
-                        <!-- Department link -->
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Department" asp-action="Index">Departments</a>
                         </li>
 
-                        <!-- Salary link -->
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Salary" asp-action="Index">Salaries</a>
                         </li>
 
-                        <!-- Main Reports Tab with Dropdown -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="IncentiveAndDiscount" asp-action="Index">Incentive and Discounts</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Attendance" asp-action="Index">Attendance</a>
+                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="reportsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Reports
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="reportsDropdown">
-                                <!-- Employee Report -->
                                 <li>
-                                    <a class="dropdown-item" asp-area="" asp-controller="EmployeeReports" asp-action="Index">Employee Report</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Reports" asp-action="Employee">Employee</a>
                                 </li>
-                                <!-- Incentive and Discount Report -->
                                 <li>
-                                    <a class="dropdown-item" asp-area="" asp-controller="IncentiveAndDiscount" asp-action="Index">Incentive and Discounts</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Reports" asp-action="Department">Department</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Reports" asp-action="IncentiveAndDiscounts">Incentive and Discounts</a>
                                 </li>
 
-                                <!-- Attendance Report -->
                                 <li>
-                                    <a class="dropdown-item" asp-area="" asp-controller="Attendance" asp-action="Index">Attendance</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Reports" asp-action="Attendance">Attendance</a>
                                 </li>
                             </ul>
                         </li>
