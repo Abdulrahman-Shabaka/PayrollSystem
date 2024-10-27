@@ -34,5 +34,5 @@ This Payroll System is designed to manage employee payroll efficiently. It inclu
 
 ### Notes
 
-1. You can find a script called "Fill_attendace_records" for filling attendance records for any employee scince he get hired in folder called Database_Stuffs.
-2. Also ther is a Full Db Backup called "Payroll_db" if you want to test with it in the folder Database_Stuffs.
+1. You can find a script called "Fill_attendace_records" for filling attendance records for any employee scince he get hired in folder called "Database_Stuffs".
+2. Also ther is a Full Db Backup called "Payroll_db" if you want to test with it in the folder "Database_Stuffs".
